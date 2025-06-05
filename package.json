@@ -1,7 +1,7 @@
 {
-  "name": "@libre-remote-play/signals",
+  "name": "@libreremoteplay/signals",
   "version": "1.0.0",
-  "description": "",
+  "description": "LibreRemotePlaySignalsJS is a JS library used in the LibreRemotePlay project.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,11 +9,28 @@
     "test": "npx tsx --test tests/index.test.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "PiterWeb",
+  "license": "GPL-3.0 license",
   "devDependencies": {
     "@types/node": "^22.15.3",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.3",
+    "get-tsconfig": "^4.10.0",
+    "resolve-pkg-maps": "^1.0.0",
+    "undici-types": "^6.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiterWeb/LibreRemotePlaySignalsJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PiterWeb/LibreRemotePlaySignalsJS/issues"
+  },
+  "homepage": "https://github.com/PiterWeb/LibreRemotePlaySignalsJS#readme"
 }
