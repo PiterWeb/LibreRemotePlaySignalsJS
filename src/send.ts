@@ -1,4 +1,3 @@
-import { console } from "inspector";
 import { ClientCode, HostCode, Server } from "./types";
 import { waitForOneMessage } from "./receive";
 
