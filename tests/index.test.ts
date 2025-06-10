@@ -1,6 +1,6 @@
-import assert, { rejects } from "node:assert";
+import assert from "node:assert";
 import test from "node:test";
-import { SendClientCode, SendHostCode, ReceiveClientCode, server } from "..";
+import { SendClientCode, SendHostCode, ReceiveClientCode, server } from "../index";
 
 test("signaling", async () => {
 
